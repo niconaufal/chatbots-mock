@@ -1,0 +1,296 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "hi",
+        "hey",
+        "hallo",
+        "hello",
+        "hai",
+        "permisi"
+        
+      ],
+      "responses": [
+        "Halo, Apa Yang Bisa Kami Lakukan Untuk Kalian?.",
+        "Hi, Ada Yang Bisa Kami Bantu?.."
+      ]
+    },
+
+    {"tag": "salam",
+      "patterns": [
+        "permisi, mau bertanya?",
+        "permisi, mau nanya?",
+        "permisi, mau tanya",
+        "boleh tanya ga?",
+        "mau nanya dong?",
+        "ingin bertanya?",
+        "izin bertanya?",
+        "saya mau bertanya",
+        "kita mau nanya?"
+      ],
+      "responses":[
+      "Boleh Ingin Tanya Apa?.",
+      "Silahkan, Mau Bertanya Apa?.."
+    ],
+        "context": [""]
+    },
+
+
+    {"tag": "bertanya",
+      "patterns":[
+        "lagi ada masalah mau curhat dong",
+        "belakangan ini saya ada masalah",
+        "saya sedih kemarin kena masalah",
+        "akhir -akhir ini saya banyak masalah",
+        "minggu lalu, saya banyak mendapat masalah",
+        "beberapa waktu lalu, saya menghadapi masalah "],
+      "responses": [
+      "Bisa Dijelaskan Masalahnya.",
+      "Coba Ceritakan Masalahmu.."],
+        "context": [""]
+    },
+    {
+      "tag": "masa depan",
+      "patterns":[
+        "bagaimana cara mengembangkan diri supaya masa depan cerah",
+        "gimana cara kita mengambil langkah kedepan",
+        "agar kita mempercayai hal yang terjadi di masa depan",
+        "cara menemukan sesuatu untuk memperbaiki di masa yang akan datang",
+        "hal yang dapat kita sikapi dalam kegagalan",
+        "bagaimana agar kita tidak takut dengan yang akan datang nanti",
+        "ketika kita gagal,apa yang harus kita lakukan "],
+      "responses":[
+      "Menaruh Mimpi,Batasi Diri Dan Mulai Bersyukur.",
+      "Kamu Dapat Belajar Dari Kesalahan Juga Ambil Kesempatan Sebanyak Mungkin..",
+      "Dengan Menyibukkan Dirimu Dan Menjalankan Apa Yang Kamu Suka..."],
+      "context": [""]
+    },
+    {
+      "tag": "masa lalu",
+      "patterns":[
+      "bagaimana cara memaafkan masa lalu yang buruk",
+      "kita masih melakukan kesalahan,kita harus apa",
+      "bagaimana kita dapat meningkatkan sebuah pengalaman",
+      "ketika kita mengingat masa lalu,cara terbaik untuk melupakannya",
+      "kita banyak melakukan kesalahan,apa yang membuat kita jadi lebih baik"],
+      "responses":[
+      "Kita Bisa Membangun Kebiasaan Baik, Dan Kenali Diri Sendiri.",
+      "Ikhlaskan Apa Yang Sudah Terjadi, Dan Alihkan Dengan Kegiatan Positif..",
+      "Mencari Tahu Pemicunya,Juga Bisa Memaafkan Setiap Orang..."],
+      "context": [""]
+    },
+    {
+      "tag": "pikiran positif",
+      "patterns":[
+        "agar kita dapat berpikir dengan baik, hal yang dapat kita lakukan",
+        "apa saja batasan agar tidak salah mengambil sikap atau tindakan",
+        "apa yang kita lakukan untuk terus berpikir positif",
+        "yang membuat kita bersemangat dalam menjalani kehidupan harus melakukan apa",
+        "bagaimana kita bisa sayang kepada diri sendiri",
+        "Bagaimana mengambil sikap positif dalam kehidupan sehari-hari",
+        "cara agar kita tidak salah menafsirkan pikiran positif ke diri kita"],
+      "responses":[
+        "Selalu Berpikir Positif Tapi Butuh Proses Tidak Langsung.",
+        "Meyakini Diri,Membayangkan Setiap Manusia Akan Lebih Baik..",
+        "Saling Menghormati, Juga Menjaga Kerukunan..."],
+        "context": [""]
+    },
+    {
+      "tag": "pikiran negatif",
+      "patterns":[
+        "bagaimana cara agar kita lebih bijak memilih kepentingan",
+        "jadi cara agar tidak membandingkan diri kita dengan orang lain",
+        "mengapa kita sering memikirkan perkataan orang lain",
+        "hal apa yang dapat saya lakukan untuk menghilangkan stigma kurang baik",
+        "solusi agar kita tidak berpikiran ke arah negatif untuk mengatasinya seperti apa",
+        "kita banyak berpikiran negatif,apa yang harus kita ubah dari hal tersebut"
+      ],
+      "responses":[
+        "Pikirkan Kesenangan,Atur Waktu Dan Minta Bantuan Jika Perlu Dan Fokus.",
+        "Cobalah Mengabaikan Pikiran Negatif Dan Berdialog Dengan Diri Sendiri..",
+        "Pikirkan Hal Yang Baik Juga Jadikan Itu Sebagai Motivasi..."],
+       "context": [""]
+    },
+    {
+      "tag": "bahagia",
+      "patterns": [
+        "siapa yang selama ini,kita anggap sebagai orang yang memiliki kebahagiaan",
+        "dimana kita bisa selalu merasakan bahagia",
+        "kebahagian seseorang berada dimana",
+        "Kehidupan yang aku jalani sekarang ini untuk siapa? ",
+        "siapa yang mengerti diri kita sendiri",
+        "siapa yang dapat diajak menemani kita saat merasa bahagia",
+        "bagaimana menemukan kebahagian sejati dalam hidup kita"
+      ],
+      "responses": [
+        "Di Setiap Orang Yang Bisa Menemukan Sisi Positifnya.",
+        "Orang Terdekat Yang Selalu Membantumu Dan Orang Yang Memiliki Kesenangan..",
+        "Selalu Menyempatkan Waktu Untuk Bersama Keluarga Dan Teman..."],
+      "context": [""]
+    },
+    {
+      "tag": "sedih",
+      "patterns": [
+        "ketika kita dapat masalah,tidak bisa menemukan jalan keluar apa yang harus dilakukan",
+        "saat kita belajar giat tapi ada masanya kita berputus asa mengapa itu bisa terjadi ",
+         "gimana agar kita bisa berempati ke sesama manusia lainnya",
+        "semakin lama dibiarkan,Semakin buruk kesedihan kita dan harus melakukan apa",
+        "bagaimana kita tidak malu mengakui ketika kita sedih"],
+      "responses": [
+        "Karena Kita Manusia Yang harus Dituntut Tidak Menyerah Dalam Menghadapi Kesulitan.",
+        "Evaluasi Diri, Dan Lihat Sudut Pandang Lain..",
+        "Dengan Bersyukur,Mencari Solusi Juga Membantu Orang Lain Yang Kesulitan...",
+        "Berani Mengambil Sikap Ketika Orang Lain Mendapat Perlakuan Tak Adil"],
+        "context": [""]
+    },
+
+    {
+      "tag": "pola tidur",
+      "patterns": [
+        "bagaimana agar pola tidur kita tidak berantakan",
+        "bagaimana cara mencegah susah tidur",
+        "hal apa yang membuat kita tenang dan rileks untuk tidur nanti",
+        "sulit untuk menentukan secara pasti, apakah anda sudah tertidur atau belum",
+        "kenapa kita sering merasakan cemas saat sedang tidur",
+        "apa yang dapat kita lakukan untuk mengatasi jadwal tidur yang tidak teratur",
+        "saya akhir-akhir ini tidak bisa tidur bagaimana cara saya agar bisa tertidur",
+        "ketika saya tertidur di siang hari,mengapa dimalam hari tidak bisa tidur"],
+      "responses": [
+        "Hindarilah Mengomsumsi Kopi atau Jangan Terlalu Banyak Pikiran.",
+        "Ciptakan Suasana Yang Nyaman Pada Saat Tidur..",
+        "Konsisten dengan Rutinitas dan Jadwal Yang Dibuat..."
+       ],
+        "context": [""]
+    },
+     
+    {
+      "tag": "pola makan",
+      "patterns": [
+        "ketika kita kecanduan memakan sesuatu,gimana untuk mengatasinya",
+        "kita banyak pikiran jadi tidak nafsu makan,hal apa yang dapat menghilangkannya",
+         "apakah makanan atau memikirkan makanan mendominasi hidup kita",
+         "kenapa kita tetap ingin makan walaupun tidak lapar",
+         "apa cara mencegah makan terlalu kenyang sampai begah",
+         "apakah kita akan mencari makanan jika sedang sedih, tertekan, dan stres",
+        "bagaimana kita mengurangi kecemasan berlebihan terhadap makanan yang kita makan",
+        "bagaimana cara membuat kita termotivasi terus untuk makan sehat",
+        "hal apa yang dapat dilakukan agar orang-orang menikmati makanan sehat "],
+      "responses": [
+        "Atur makanan yang akan dimakan Juga Berikan Jadwal.",
+        "Berolahraga Dan Ubah Pola Makan..",
+        "Dengan Mencoba Menyukai Makanan Yang Sehat...",
+        "Mungkin Terbiasa Jadi Secara Otomatis Akan Melakukannya..."
+        ],
+        "context": [""]
+    },
+   
+      
+    {
+      "tag": "pola pikir berkembang",
+      "patterns": [
+        "bagaimana cara kita semangat dalam menjalani aktivitas",
+        "Bagaimana mengembangkan bakat dalam diri kita sendiri",
+        "apa yang membuat kita antusias dalam mengikuti suatu kegiatan",
+        "setiap hari kita selalu menghadapi tantangan, gimana kita agar menyukai tantangan",
+        "pasti dalam kehidupan ada masalah, solusi yang terbaik untuk menghadapi hal tersebut",
+        "saat kita mendapatkan kritikan,agar dapat menerima kita harus melakukan apa ",
+        "ketika kita sudah hilang harapan supaya kita mendapatkan harapan kembali bagaimana "
+
+      ],
+      "responses": [
+        "Melakukan Meditasi Dan Ucapkan Kata-Kata Positif Dalam Diri Kita.",
+        "Tingkatkan Skill Juga Susun Strategi..",
+        "Berterima Kasih Dan Menerima Dengan Perasaan Terbuka..."
+        ],
+        "context": [""]
+    },
+
+    {
+      "tag": "pola pikir tetap",
+      "patterns": [
+        "sebenarnya kita bisa melakukan sesuatu tapi mengapa selalu merasa tidak bisa ",
+        "ketika kita ada masalah menghampiri, kenapa cenderung menghindari masalah tersebut",
+        "mengapa saat membuat kesalahan, kita selalu mencari alasan agar tidak disalahkan ",
+        "mengapa kita takut pada perubahan dalam diri kita",
+        "apa yang menghambat saya melakukan apa yang seharusnya dilakukan",
+        "kenapa kita mudah menyerah padahal hasilnya masih belum tau",
+        "hal yang bisa kita ambil hikmah dari kebiasaan buruk",
+        "gimana kita tidak merasa terancam dengan kesuksesan orang lain"],
+      "responses": [
+        "Membangun Kepercayaan  Dalam Diri Dan Kita Harus Berjiwa Besar .",
+        "Kemungkinan Tidak Yakin Dengan Dirinya Sendiri..",
+        "Fokus Dengan Diri Sendiri Juga Tetap Bersyukur Dengan Apa Yang Kita Miliki.."
+
+        ],
+        "context": [""]
+    },
+
+    {
+      "tag": "percaya diri",
+      "patterns": [
+        "bagaimana kita tetap percaya diri walau banyak hinaan pada diri kita ",
+        "orang yang percaya diri akan selalu apa",
+        "gimana cara membangun rasa percaya diri ",
+        "apa yang membuat kita yakin dengan yang dimiliki diri kita",
+        "bagaimana agar dapat bersikap realistis dengan diri sendiri",
+        "agar tujuan kita tercapai harus melakukan seperti apa",
+        "apakah yang dilakukan kita agar lebih menonjol daripada orang lain",
+        "Bagaimana cara  agar percaya diri terhadap diri kita sendiri"
+      ],
+      "responses": [
+        "Belajarlah Untuk Memahami Situasi Kita Saat Ini.",
+        "Bergaul Dengan Orang Yang Positif..",
+        "Karena Hidup Jadi Jauh Lebih Mudah Dan Bahagia...",
+        "Selalu Punya Inisiatif Dan Aktif Dalam Berbagai Kegiatan..."
+        ],
+        "context": [""]
+    },
+
+    {
+      "tag": "tidak percaya diri",
+      "patterns": [
+        "kenapa saat kita dipuji banyak orang jadi tidak percaya diri",
+        "mengapa kita sering tidak percaya diri dihadapan orang lain",
+        "bagaimana saat kita gugup jadi hilang rasa percaya diri ",
+        "apa yang membuat kita kekurangan motivasi hidup",
+        "yang membuat kita minder atau tidak percaya diri",
+        "pelajaran apa yang di dapatkan dari sebuah kegagalan?",
+        "apakah yang membuat kita selalu kurang percaya diri"],
+      "responses": [
+        "Itu Termasuk Hal Wajar Karena Setiap Orang Pernah Mengalaminya.",
+        "Berhenti Membandingkan Diri Dengan Orang Lain..",
+        "Membuat Keputusan Sendiri Dan Bertanggung Jawab Terhadap Pilihan...",
+        "Belum Menemukan Kekuatan Diri juga Sering Negative Thingking....."
+        ],
+        "context": [""]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["selamat tinggal", "sampai jumpa lagi", "selamat tinggal untuk kamu","sampai ketemu lagi", "sampai bertemu lagi"],
+      "responses": [
+        "Sampai Jumpa Lagi Dan Terima Kasih. ",
+        "Semoga Harimu Menyenangkan..",
+        "Selamat Tinggal! Kembali Lagi Nanti..."
+      ]
+    },
+    {
+      "tag": "selamat",
+      "patterns": ["terima kasih banyak", "sangat membantu", "terima kasih","terima kasih atas dukungannya", "terimakasih sebelumnya"],
+      "responses": ["Kami Senang Bisa Membantu!.", "Dengan Senang Hati..","Tentu, Jangan Khawatir"]
+    },
+     {
+      "tag": "terakhir",
+      "patterns": [
+        "terima kasih pencerahannya",
+        "makasi ya,sekarang saya bisa lebih baik",
+        "baik, terima kasih atas masukkannya",
+        "terima kasih telah menjadi pendengar dari cerita saya"],
+      "responses": [
+        "Semoga Yang Kami Jelaskan Dapat Dipahami Dengan Baik.",
+        "Ya, Semoga Kami Lakukan Bisa Membuat Kamu Menjadi Lebih Baik.."],
+        "context": [""]
+
+    }
+  ]  
+}
